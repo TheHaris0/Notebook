@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#71797e"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:id="@+id/rlayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="-9dp"
+        android:background="#1025"/>
+
+    <TextView
+        android:layout_centerHorizontal="false"
+        android:id="@+id/notestitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Tasks"
+        android:textColor="#d4e2ef"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notestitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addnewnotebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#3E5151"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#DECBA4"
+        android:textSize="60dp"
+        app:cornerRadius="100dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/aboutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="678dp"
+        android:layout_toRightOf="@id/notestitle"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="About App"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:cornerRadius="8dp" />
+
+</RelativeLayout>

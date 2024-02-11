@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NoteBook</string>
+    <string name="app_description">1.Introduction:\n
+    •	Application name Notebook.\n
+    •	Our Purpose: People can manage their mini-tasks to note in the application.\n
+    •	They can Sort their responsibilities by mentioning these tasks in the note book.\n
+2.	Key Features:\n
+        •	Note creation.\n
+        •	Long Press to delete the note.\n
+3.	User Interface:\n
+    •	First of all, there is a 1.5sec loading screen.\n
+    •	Main Screen have About-App button on the top.\n
+    •	There is a plus button on the main screen bottom to add new notes on the main screen.\n
+4.	Ease of Use:\n
+    •	You can easily add new notes in application.\n
+    •	You can easily remove any note from app.\n
+5.	Compatibility: Android versions 7 and above.\n
+6.	Future Updates: We will adding more features in app.\n
+7.	User Support:\n
+    •	If there is any type of issues or you want to add more feature related to notebook you can comment on play-store in app review section.\n
+8.	Download and Installation: Install app on Google Play Store.\n
+9.	Conclusion:
+    •	Our Notebook app ensures features like long press deletion, easy-navigation. Compatible with Android 7 and above, the app features are simple. Install now from Google Play-Store. Thanks for choosing our app!\n
+</string>
+
+</resources>
